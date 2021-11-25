@@ -1,0 +1,29 @@
+.infoDetails{
+    padding: 30px;
+    h3{
+        color: #54aeff;
+    }
+}
+
+.comment{
+    display: flex;
+    padding-bottom: 30px;
+    .userData{
+        min-width: 150px;
+        .user{
+            align-self: center;
+        }
+        .date{
+            display: block;
+            padding-top: 5px;
+        }
+    }
+    .text{
+        padding: 15px;
+        display: block;
+        border-radius: 5px;
+        background-color: #e1e1e1;
+        width: -webkit-fill-available;
+        margin-left: 35px;
+    }
+}

@@ -1,0 +1,22 @@
+.spinner-modal-bg {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1005;
+    background-color: #dedede;
+    opacity: 0.4;
+  }
+  
+  .spinner-container {
+    position: fixed;
+    top: calc(50% - 50px);;
+    left: calc(50% - 50px);;
+    z-index: 1005;
+  
+    .svg-inline--fa.fa-w-16 {
+      width: 100px;
+      height: 100px;
+    }
+  }

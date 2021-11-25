@@ -1,0 +1,34 @@
+.header {
+    background-color: #131921;
+    width: 100%; 
+    position: fixed; 
+    right: 0px; 
+    top: 0px;     
+    z-index: 1;
+    height: 50px;
+    .nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .boxlogotitle {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        flex-grow: none;
+        height: 50px;
+        cursor: pointer;
+        .title{
+          color: #ffff;
+          font-weight: 900;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          font-size: 20px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    
+    
+    }
+}
